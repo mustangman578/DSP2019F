@@ -1,0 +1,13 @@
+1. A, D, G, F, I
+2. B, C
+3. git help -a
+4. Assembly, Yes, 
+5. Fortran in 1950
+6. Assembly
+   third, third, third, fourth, fourth, fourth
+7. 1970, 1980, 1980, 1990
+8. B
+9. c and simula
+10. Fortran,C
+11. line when x-axis is log scale, powerlaw for x and y log scale
+
