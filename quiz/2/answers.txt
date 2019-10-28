@@ -1,0 +1,20 @@
+1.  This is creating a test block that will set a variable __name__ to the value __main__ of if it's being imported from another module it will set __name__ to the module's name.  This will then run all of the code within the block.  We can use this approach if we want to run a standalone program and test it.
+
+2.  from myModule import myfunc as f
+    myModule
+
+3.  
+even = [0,2,4,6,8]
+odd = [1,3,5,7,9]
+
+myList = [sum(i) for i in zip(even,odd)]
+print(myList)
+
+4.  When running this code, the for loop never ends.  I believe this is happening because you never tell it stop going through the rather just incrementing by one forever.
+
+5.  
+def getsum(n):
+    if n <= 0:
+        return 0
+    else:
+        return n + getsum(n-1)
