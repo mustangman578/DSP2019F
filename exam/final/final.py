@@ -100,7 +100,7 @@ def twoPointsArray(Point):
             
             print(len(x_first))
             if len(x_first) >= 3:
-                # The problem is summing up the volumes 
+                # The problem is summing up the volumes and maintaing the state across the different levels of recursion
                 sumOfVolumes += getMinVolPartition(newPointsArray)
             else:
                 return sumOfVolumes
@@ -236,4 +236,4 @@ def ellispeArea(Point):
         
         print(sumOfVolumes)
     print(sumOfVolumes)
-'''    
+'''   
